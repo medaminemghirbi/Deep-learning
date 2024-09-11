@@ -1,5 +1,5 @@
 import os
-from flask import Flask, request, jsonify
+from flask import Flask, request, redirect, url_for, render_template, jsonify
 from werkzeug.utils import secure_filename
 import tensorflow as tf
 import numpy as np
@@ -60,30 +60,39 @@ def predict_disease(model, img_path):
     return class_names[top_prob_index], top_prob, img_str
 
 
-@app.route('/predict', methods=['POST'])
-def predict():
-    # Check if the post request has the file part
-    if 'file' not in request.files:
-        return jsonify({'error': 'No file part in the request'}), 400
+@app.route('/', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        # Check if the post request has the file part
+        if 'file' not in request.files:
+            return redirect(request.url)
+        file = request.files['file']
+        # If the user does not select a file, the browser submits an empty file without a filename.
+        if file.filename == '':
+            return redirect(request.url)
+        if file:
+            filename = secure_filename(file.filename)
+            file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(file_path)
+            return redirect(url_for('result', filename=filename))
+    return render_template('index.html')
 
-    file = request.files['file']
-    # If the user does not select a file, the browser submits an empty file without a filename.
-    if file.filename == '':
-        return jsonify({'error': 'No selected file'}), 400
 
-    if file:
-        filename = secure_filename(file.filename)
-        file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
-        file.save(file_path)
+@app.route('/result/<filename>')
+def result(filename):
+    file_path = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+    class_name, probability, img_str = predict_disease(model, file_path)
 
-        # Make prediction
-        class_name, probability, img_str = predict_disease(model, file_path)
-
-        # Return the prediction in JSON format
+    if request.args.get('json') == 'true':
+        # Return JSON response
         return jsonify({
             'predicted_class': class_name,
-            'top_prob': probability
+            'top_prob': probability,
+            'image_base64': img_str
         })
+    else:
+        # Render the HTML page
+        return render_template('result.html', predicted_class=class_name, top_prob=probability, img_base64=img_str)
 
 
 if __name__ == '__main__':
