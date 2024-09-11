@@ -86,7 +86,6 @@ def predict():
         })
 
 # Vercel requires this line to serve the app
-def handler(request, *args, **kwargs):
-    return app(request, *args, **kwargs)
+
 if __name__ == '__main__':
     app.run(debug=True)

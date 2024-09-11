@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e7dd2ce7-1d41-44e6-9648-f690ada048f9" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/derma DEEP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/main.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vercel.json" beforeDir="false" afterPath="$PROJECT_DIR$/.Procfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2j902fhK5n3pLdQl7NePnm1jbDX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/DERMA TN&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\moham\Desktop\PFE\DERMA TN" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="derma DEEP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="derma DEEP" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.17011.127" />
+        <option value="bundled-python-sdk-48aec45f0201-7e9c3bbb6e34-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.17011.127" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7dd2ce7-1d41-44e6-9648-f690ada048f9" name="Changes" comment="" />
+      <created>1720783779663</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1720783779663</updated>
+      <workItem from="1720783780691" duration="7106000" />
+      <workItem from="1720802213841" duration="297000" />
+      <workItem from="1720824384060" duration="233000" />
+      <workItem from="1720890570645" duration="1332000" />
+      <workItem from="1720912800719" duration="10006000" />
+      <workItem from="1720953112231" duration="3232000" />
+      <workItem from="1720964908246" duration="8140000" />
+      <workItem from="1720992336375" duration="893000" />
+      <workItem from="1721230051189" duration="19378000" />
+      <workItem from="1721263756872" duration="3325000" />
+      <workItem from="1721267267259" duration="6358000" />
+      <workItem from="1721301076121" duration="6217000" />
+      <workItem from="1721310097706" duration="593000" />
+      <workItem from="1721317277369" duration="724000" />
+      <workItem from="1721319834845" duration="5796000" />
+      <workItem from="1721333171802" duration="5443000" />
+      <workItem from="1721340609707" duration="500000" />
+      <workItem from="1721341182175" duration="214000" />
+      <workItem from="1721349746073" duration="871000" />
+      <workItem from="1721350762780" duration="727000" />
+      <workItem from="1721355629479" duration="1958000" />
+      <workItem from="1721382686908" duration="53000" />
+      <workItem from="1721384110824" duration="811000" />
+      <workItem from="1721396267336" duration="39000" />
+      <workItem from="1721494347248" duration="618000" />
+      <workItem from="1721505933961" duration="1535000" />
+      <workItem from="1721507494035" duration="1815000" />
+      <workItem from="1721509746476" duration="917000" />
+      <workItem from="1721524514961" duration="1797000" />
+      <workItem from="1721555156593" duration="35000" />
+      <workItem from="1721555205593" duration="113000" />
+      <workItem from="1721555362710" duration="288000" />
+      <workItem from="1721556306560" duration="2594000" />
+      <workItem from="1721567832475" duration="64000" />
+      <workItem from="1721576833930" duration="3826000" />
+      <workItem from="1721582363893" duration="3267000" />
+      <workItem from="1721596108388" duration="28000" />
+      <workItem from="1721596313961" duration="2397000" />
+      <workItem from="1721601291100" duration="102000" />
+      <workItem from="1721680535718" duration="1731000" />
+      <workItem from="1721684441052" duration="48000" />
+      <workItem from="1721684584944" duration="1296000" />
+      <workItem from="1721689440093" duration="1812000" />
+      <workItem from="1721839292826" duration="1000" />
+      <workItem from="1721924753818" duration="192000" />
+      <workItem from="1721928344046" duration="139000" />
+      <workItem from="1722693006682" duration="164000" />
+      <workItem from="1722693777734" duration="2005000" />
+      <workItem from="1722698680500" duration="684000" />
+      <workItem from="1722699434132" duration="3980000" />
+      <workItem from="1722708146011" duration="2390000" />
+      <workItem from="1722722324611" duration="3884000" />
+      <workItem from="1722726855153" duration="690000" />
+      <workItem from="1722729642767" duration="1680000" />
+      <workItem from="1722774439937" duration="1516000" />
+      <workItem from="1722781461400" duration="1000" />
+      <workItem from="1722873706889" duration="637000" />
+      <workItem from="1722887270274" duration="715000" />
+      <workItem from="1722892022673" duration="4433000" />
+      <workItem from="1722963242436" duration="1192000" />
+      <workItem from="1722965666064" duration="890000" />
+      <workItem from="1723907239463" duration="342000" />
+      <workItem from="1725902767116" duration="93000" />
+      <workItem from="1725914479439" duration="597000" />
+      <workItem from="1725915453694" duration="201000" />
+      <workItem from="1726086550766" duration="203000" />
+      <workItem from="1726088647811" duration="2091000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
